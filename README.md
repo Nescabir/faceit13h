@@ -3,7 +3,7 @@
 The goal of this app is to generate 2 random words that have no relations whatsoever to create a team name for FACEIT.
 
 ## History
-We are used to play CS:GO PUGs on [FACEIT](https://faceit.com/) between 1pm and 2pm and we needed to look for a name each time we played.
+We are used to play CS:GO PUGs on [FACEIT](https://faceit.com/) with the [Dfuse community](https://dfuse.gg/) between 1pm and 2pm and we needed to look for a name each time we played.
 
 ## Rules
 - 13 characters max
