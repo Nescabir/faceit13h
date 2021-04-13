@@ -1,0 +1,35 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    .title {
+        display: flex;
+        flex-direction: row;
+        & > img {
+            margin: 2.3em 20px 2.3em 0;
+            max-height: 30px;
+        }
+        & > h1 {
+            font-size: 42px;
+        }
+        .version {
+            font-size: 10pt;
+            color: #4E4E4E;
+        }
+    }
+    footer {
+        .love {
+            color: var(--accent);
+        }
+        a {
+            // text-decoration: none;
+            font-weight: 700;
+            color: var(--white);
+            transition: color 0.3s ease-in-out;
+            &:hover {
+                color: var(--accent);
+            }
+        }
+    }
+}
