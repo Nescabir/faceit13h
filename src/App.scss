@@ -19,8 +19,17 @@
         }
     }
     footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         .love {
             color: var(--accent);
+        }
+        .source {
+            & > a {
+                font-size: 10pt;
+                text-decoration: none;
+            }
         }
         a {
             // text-decoration: none;
