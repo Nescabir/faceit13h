@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import './RandomWords.scss';
+import _ from "lodash";
 const randomENWords = require('random-words');
 const FRWords: string[] = require('an-array-of-french-words')
 
@@ -36,7 +37,7 @@ function RandomWords() {
     const words = FRWords.filter(word => word.length >= 2 && word.length <= 7);
     const firstWord = capitalizeFirstLetter(words[random()]);
     const secondWord = capitalizeFirstLetter(words[random()]);
-    const res = firstWord+secondWord;
+    const res = _.deburr(firstWord+secondWord);
 
     if (res.length <= 13) {
       setTeamName(res)

@@ -23,9 +23,12 @@ Thanks to [Carabon](https://twitter.com/IAmCarabon) for the original idea.
 # TODO
 - [ ] Stats
 - [ ] Win/Lose button
+- [x] Remove accent in french words
 - [x] French & English
 - [x] 13 characters
 # Changelog
+## 1.1.1
+- Removed accents in french words
 ## 1.1.0
 - 13 characters max
 - French and English
