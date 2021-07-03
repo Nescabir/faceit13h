@@ -27,6 +27,9 @@ Thanks to [Carabon](https://twitter.com/IAmCarabon) for the original idea.
 - [x] French & English
 - [x] 13 characters
 # Changelog
+
+## 1.1.2
+- Updated twitter link and package version
 ## 1.1.1
 - Removed accents in french words
 ## 1.1.0
