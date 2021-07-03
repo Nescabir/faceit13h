@@ -14,7 +14,7 @@ function App() {
       <RandomWords />
       <footer>
         <p>
-          Développé par <a href="https://twitter.com/xNescabir">NES</a> avec <span className="love">❤</span> pour <a href="https://dfuse.gg" target="_blank" rel="noreferrer">Dfuse.gg</a>.
+          Développé par <a href="https://twitter.com/Kerecthar">NES</a> avec <span className="love">❤</span> pour <a href="https://dfuse.gg" target="_blank" rel="noreferrer">Dfuse.gg</a>.
         </p>
         <span className="source">
           <a href="https://github.com/Nescabir/faceit13h">GitHub Repo</a>
